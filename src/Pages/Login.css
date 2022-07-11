@@ -1,0 +1,19 @@
+.login__bg{
+    background-image: url('../assets/mobile-messaging.svg');
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+
+.login-container{
+  background-color: #f652a0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  margin-top: 10%;
+  padding: 40px;
+  border-radius: 10px;
+  color:#fff
+}

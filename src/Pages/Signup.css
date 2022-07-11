@@ -1,0 +1,46 @@
+.signup__bg{
+    background-image: url('../assets/text-message-1.svg');
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+
+.signup-profile-pic__container{
+    width:100px;
+    height:100px;
+    margin:0 auto;
+    position: relative;
+    
+}
+
+.signup-profile-pic{
+    width:100px;
+    border-radius:50%;
+    border:2px solid gray;
+    object-fit: cover;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.206);
+}
+
+.add-picture-icon{
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+    color: red;
+    background: white;
+    cursor: pointer;
+    z-index: 99;
+}
+
+.sign-container{
+    background-color: #f652a0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    margin-top: 5%;
+    padding: 40px;
+    border-radius: 10px;
+    color:#fff
+}

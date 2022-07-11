@@ -1,0 +1,24 @@
+
+.home-message-icon {
+    margin-left:10px;
+    display: inline-block;
+}
+
+.home-container{
+    background-color:  #bcece0;
+    color: #4c5270;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 98vh;
+}
+
+.start-btn{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.start-btn:hover,
+.start-btn:active{
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
